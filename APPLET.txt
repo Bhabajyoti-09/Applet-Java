@@ -1,0 +1,29 @@
+import java.applet.; import java.awt.;
+public class MyApplet extends Applet {
+public void init() {
+// Applet initialization code goes here
+}
+public void paint(Graphics g) {
+g.drawString("Hello, World!", 20, 20); }}
+
+
+MyApplet.html:
+<html>
+<head>
+<title>My Applet</title>
+</head>
+<body>
+<applet code="MyApplet.class" width="300"
+height="200"></applet>
+</body>
+</html>
+MyApplet.html:
+<html>
+<head>
+<title>My Applet</title>
+</head>
+<body>
+<applet code="MyApplet.class" width="300"
+height="200"></applet>
+</body>
+</html>
